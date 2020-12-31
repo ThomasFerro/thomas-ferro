@@ -8,10 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: ThomasFerro/golb@v0.0.1
+      - uses: ThomasFerro/golb@v0.0.2
 
-      # Runs a single command using the runners shell
       - name: Test dist
         run: |
           ls,
