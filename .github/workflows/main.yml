@@ -8,9 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: ThomasFerro/golb@v0.0.3
+      - uses: ThomasFerro/golb@v0.0.4
 
       - name: Test dist
-        run: |
-          ls,
-          ls dist
+        run: ls
